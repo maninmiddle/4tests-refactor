@@ -22,3 +22,4 @@ dependencyResolutionManagement {
 rootProject.name = "4tests"
 include(":app")
 include(":domain")
+include(":data")
