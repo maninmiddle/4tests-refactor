@@ -42,6 +42,7 @@ dependencies {
     implementation(libs.hiltAndroid)
     implementation(project(":data"))
     implementation(project(":domain"))
+    implementation(project(":presentation"))
     ksp(libs.hiltCompiler)
     implementation(libs.dagger)
     ksp(libs.daggerCompiler)
