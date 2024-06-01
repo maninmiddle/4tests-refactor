@@ -7,5 +7,4 @@ data class TestDto(
     @field:Json(name = "subject") var subject: String,
     @field:Json(name = "completeTime") var completeTime: Int,
     @field:Json(name = "password") var password: String,
-    @field:Json(name = "tasks") var tasks: MutableList<TaskDto>
 )

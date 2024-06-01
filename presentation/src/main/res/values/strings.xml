@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="_4tests">4tests</string>
+    <string name="string_welcome_text">Создавайте и делитесь тестами с людьми\nиз любой точки мира!</string>
+    <string name="string_enter">Войти</string>
+    <string name="string_create_test">Создать тест</string>
+    <string name="string_enter_test">Присоединиться к тесту</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="string_tests">Тесты</string>
+</resources>

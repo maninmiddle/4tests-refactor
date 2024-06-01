@@ -8,16 +8,6 @@ import com.maninmiddle.domain.model.Test
 import com.maninmiddle.domain.model.Variant
 
 
-fun List<TaskDto>.toMutableTaskList(): MutableList<Task> {
-    return this.map { taskDto ->
-        Task(
-            text = taskDto.text,
-            variants = taskDto.variants,
-            rightVariants = taskDto.rightVariants
-        )
-    }.toMutableList()
-}
-
 fun List<TestDto>.toTestsList(): List<Test> {
     return this.map { testDto ->
         Test(
@@ -25,7 +15,6 @@ fun List<TestDto>.toTestsList(): List<Test> {
             subject = testDto.subject,
             completeTime = testDto.completeTime,
             password = testDto.password,
-            tasks = testDto.tasks.toMutableTaskList()
         )
     }
 }

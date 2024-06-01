@@ -23,7 +23,7 @@ object AppModule {
     @Singleton
     fun provideRetrofitInstance(): ApiService =
         Retrofit.Builder()
-            .baseUrl("https://localhost:8080/")
+            .baseUrl("http://172.24.182.172:3000/")
             .addConverterFactory(MoshiConverterFactory.create())
             .build()
             .create(ApiService::class.java)
